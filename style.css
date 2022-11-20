@@ -1,0 +1,30 @@
+* {
+    margin: 0 auto;
+}
+
+h5 {
+    width: 100%;
+    height: 50px;
+    margin: 5% 0% 0% 5%;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container > section {
+    width: 50%;
+
+}
+
+#container > section img {
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+}
+
+.innerContainer {
+    display: flex;
+}
